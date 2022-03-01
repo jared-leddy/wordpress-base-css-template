@@ -1,0 +1,46 @@
+/*----------
+Change Log
+20190603 @ 2100 / Jared Ledbetter
+      -Initial file setup
+----------*/
+
+/*----------
+[Table of Contents]
+
+0. Global & Extends
+1. jQuery Dependencies
+2. Modal Form
+3. Header
+
+----------*/
+
+/*----------
+[ 0. Global & Extends ]
+----------*/
+
+/*--- Media Query Variables ---*/
+$desktop-large:  "screen and (min-width: 1201px)";
+$desktop-small:  "screen and (max-width: 1200px)";
+$tablet-large:   "screen and (max-width: 992px)";
+$tablet:         "screen and (max-width: 768px)";
+$mobile:         "screen and (max-width: 640px)";
+$mobile-small:   "screen and (max-width: 400px)";
+
+/*--- Media Query Usage ---*/
+@media $desktop-large {}
+@media $desktop-small {}
+@media $tablet-large {}
+@media $tablet {}
+@media $mobile {}
+@media $mobile-small {}
+
+
+/*--- Colors ---*/
+$blue:     #203665;
+$yellow:   #f8dd30;
+
+/*----------
+[ 1. jQuery Dependencies ]
+----------*/
+
+/*--- Sticky Header ---*/
